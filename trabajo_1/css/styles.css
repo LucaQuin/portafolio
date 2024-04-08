@@ -10,6 +10,37 @@
     font-optical-sizing: auto;
 }
 
+.total{
+    width: 300px;
+    height: 550px;
+    border: 10px;
+}
+
+.arriba{
+    width: 100%;
+    height: 50px;
+    border: 10px;
+}
+
+.medio-arriba{
+    width: 100%;
+    height: 225px;
+    border: 10px;
+}
+
+.medio-abajo{
+    width: 100%;
+    height: 225px;
+    border: 10px;
+}
+
+.abajo{
+    width: 100%;
+    height: 50px;
+    border: 10px;
+}
+
+
 .derecha-arriba{
     background-image:settings_accessibility;
 
