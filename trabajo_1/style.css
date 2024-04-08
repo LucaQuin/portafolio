@@ -34,8 +34,10 @@
 
 .productitos{
     width: 18vw;
-    height: 53vh;
+    height: 57vh;
     padding: 12px;
+    display: grid;
+    justify-items: center;
 }
 
 
@@ -43,6 +45,25 @@
     display: grid;
     justify-content: center;
     margin-top: 56px;
+}
+
+.nose {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+input[type="button"] {
+    background: fixed;
+    color: white;
+    border-color: white;
+    height: 28px;
+}
+
+.des {
+    display: -webkit-inline-box;
+    width: 66vh;
+    position: relative;
 }
 
 .staffitos{
@@ -59,11 +80,19 @@
     justify-items: center;
     margin-top: 24px;
 }
+.button{
+    width: 70%;
+    align-content: center;
+    margin-top: 10px;
+    display: grid;
+}
+
 
 footer{
     background: darkgray;
     width: 100%;
     text-align: center;
+    margin-top: 68px;
 }
 
 #titulo{
@@ -88,16 +117,20 @@ footer{
     display: grid;
 }
 
-.cosita{
+.cosita {
     display: flex;
-    justify-content: center;
-    font-size: 45px;
+    justify-content: left;
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px 7px black;
 }
 
-.cosita2{
-    width: 37vw;
+.cosita2 {
+    width: 17vw;
     font-size: 18px;
-    margin-top: 66px;
+    margin-top: 100px;
+    position: absolute;
+    left: 194px;
 }
 
 body{
@@ -108,4 +141,5 @@ body{
 .producto1{ background-color: aquamarine;}
 .producto2{ background-color: rgb(248, 116, 116);}
 .producto3{ background-color: rgb(248, 156, 236);}
-.producto4{ background-color: rgb(127, 229, 255);}
+.producto4{ background-color: rgb(127, 229, 255);} 
+.redondiar{ border-radius: 143px;}    
