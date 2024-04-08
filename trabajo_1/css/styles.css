@@ -4,10 +4,15 @@
     padding: 0; margin: 0; box-sizing: border-box;
 }
 
+body{
+    height: 100vh;
+    width: 100%;
+}
 
 :root{
     --manrope-font:"Manrope", sans-serif;
     --fondo-degradado:linear-gradient(90deg, lightblue, black);
+    --negro90: rgb(30, 30, 30);
 }
 
 .manrope{
