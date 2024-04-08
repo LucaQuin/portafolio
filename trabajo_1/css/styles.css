@@ -5,9 +5,15 @@
 }
 
 
+:root{
+    --manrope-font:"Manrope", sans-serif;
+    --fondo-degradado:linear-gradient(90deg, lightblue, black);
+}
+
 .manrope{
     font-family: "Manrope", sans-serif;
     font-optical-sizing: auto;
+    background: linear-gradient(90deg, lightblue, black);
 }
 
 .total{
