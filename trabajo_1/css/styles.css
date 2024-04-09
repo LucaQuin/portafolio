@@ -110,7 +110,8 @@ header.arriba {
 }
 
 .colors:hover{
-    
+    width: 20px;
+    height: 20px;
 }
 
 .rojo{background-color: red;}
