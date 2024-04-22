@@ -48,7 +48,11 @@ body{
     height: 225px;
     border: solid;
     display: inline-grid;
-    justify-content: center;
+}
+
+.dos {
+    display: flex;
+    justify-content: space-around;
 }
 
 .medio-abajo {
@@ -121,8 +125,8 @@ header.arriba {
 .negro{background-color: black;}
 
 .tamaño-produ {
-    width: 21px;
-    height: 24px;
+    width: 27px;
+    height: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,8 +137,8 @@ header.arriba {
 
 .botones-tamaños {
     display: flex;
-    justify-content: space-between;
-    width: 86px;
+    justify-content: space-around;
+    width: auto;
 }
 
 .descp-abajo {
@@ -155,4 +159,20 @@ header.arriba {
     width: 126px;
     height: 26px;
     cursor: pointer;
+}
+
+.foto {
+    background-image: url(../css/imagenesTP1/descarga.jpg);
+    width: 100%;
+    height: 110px;
+}
+
+.foto:hover{
+    background-color: red;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
 }
