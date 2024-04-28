@@ -34,6 +34,7 @@ body{
     box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.288);
 }
 
+
 .arriba {
     width: 100%;
     height: 50px;
@@ -84,11 +85,20 @@ header.arriba {
     cursor: pointer;
     
 }
+.izquirda-arriba:hover{
+    text-shadow: 2px 2px 20px black;
+    display: flex;
+}
 
 .derecha-arriba{
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+.derecha-arriba:hover{
+    text-shadow: 2px 2px 20px black;
+    display: flex;
 }
 
 .derecha-arriba{
@@ -102,7 +112,7 @@ header.arriba {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .colors{
@@ -114,8 +124,10 @@ header.arriba {
 }
 
 .colors:hover{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 .rojo{background-color: red;}
@@ -135,19 +147,27 @@ header.arriba {
     cursor: pointer;
 }
 
+.tamaño-produ:hover{
+    transform:scale(1.2);
+}
+
 .botones-tamaños {
     display: flex;
+    position: relative;
     justify-content: space-around;
     width: auto;
+}
+.descp-arriba:hover{
+    font-size: 20px;
 }
 
 .descp-abajo {
     width: 100%;
     height: 91%;
+    margin-top: 9px;
 }
-
-.descp-arriba {
-    padding: 8px;
+.descp-abajo:hover{
+    font-size: 19px;
 }
 
 .boton-carrito {
@@ -161,6 +181,13 @@ header.arriba {
     cursor: pointer;
 }
 
+.boton-carrito:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+    background-color: black;
+    color: white;
+}
+
 .foto {
     background-image: url(../css/imagenesTP1/descarga.jpg);
     width: 100%;
@@ -169,10 +196,19 @@ header.arriba {
 
 .foto:hover{
     background-color: red;
-    position: absolute;
-    height: 300px;
-    width: 400px;
+    bottom: 31px;
+    position: relative;
+    height: 219px;
+    width: 100%;
     overflow: auto;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
+}
+
+.foto:hover ~ .dos{
+    display: none;
+}
+
+.foto:hover ~ .botones-tamaños{
+    display: none;
 }

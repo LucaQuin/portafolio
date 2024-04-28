@@ -1,0 +1,149 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: cover;
+}
+
+header{
+    width: 100%;
+    height: 50%;
+    
+
+    .portada{
+        width: 100%;
+        height: 100%;
+
+        .foto{
+            width: 100%;
+            height: 70%;
+            background-image: url("https://img.freepik.com/foto-gratis/restaurante-paredes-ladrillo-rojo-mesas-madera-tuberias-techo_140725-8504.jpg");
+            background-position: center;
+            background-size: cover;
+            border-bottom: solid;
+            }
+    
+        .calificacion {
+            background-color: rgb(59, 224, 59);
+            color: white;
+            width: 7%;
+            height: 5%;
+            position: absolute;
+            right: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 33%;
+            border-radius: 34px;
+        }
+
+        .informacion {
+            width: 100%;
+            height: 30%;
+        }
+
+        .cuerpo-ofertas{
+            width: 100%;
+            height: 30%;
+
+            .nom-ofertas {
+                width: fit-content;
+                height: fit-content;
+                font-size: 50px;
+                position: relative;
+                left: 16%;
+                top: 6%;
+            }
+
+            .preci-ofertas {
+                width: 10px;
+                height: auto;
+                left: 83%;
+                position: relative;
+                top: -78%;
+                font-size: 21px;
+            }
+
+            .dire {
+                font-size: 30px;
+                width: fit-content;
+                height: fit-content;
+                position: relative;
+                top: 54%;
+                left: 17%;
+            }
+        }
+    }
+    
+}
+
+main{
+    width: 100%;
+    height: 40%;
+
+    .resultado1{
+        width: 100%;
+        height: 100%;
+        
+        .encabezado {
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+
+            .hor {
+                display: grid;
+                justify-items: center;
+            }
+        }
+    }
+
+    .res {
+        margin-top: 10px;
+        width: 100%;
+        height: 90%;
+        padding: 20px;
+        overflow: scroll;
+        overflow-y:inherit;
+    }
+}
+
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    ul {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+
+        li{
+            text-decoration: none;
+            color: gray;
+            list-style: none;
+            width: 33.333%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 23px;
+            cursor: pointer;
+        }
+        li:hover{
+            border-top: solid green;
+            color: black;
+        }
+    }
+
+
+}

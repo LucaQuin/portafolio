@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo2</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/app-resto.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -18,36 +18,93 @@
                 <p>Es momento de comermela</p>
             </div>
             <div class="buscador">
-                <div class="izquierda"><i class="fa-solid fa-location-dot"></i></div>
+                <span  class="izquierda"><i class="fa-solid fa-location-dot"></i></span>
                 <div class="medio"><input type="text" name="nada" placeholder="Buscar restaurante"></div>
-                <div class="derecha"><input type="submit" class="fa-solid fa-magnifying-glass" value="fa-solid fa-magnifying-glass"></div>
+                <input type="submit" class="material-icons-outlined" value="search" ><div class="derecha"></div>
             </div>
         </section>
         <section class="categoria">
-            <div class="cate"><i class="fa-solid fa-plate-wheat"></i>Comida China</div>
-            <div class="cate"><i class="fa-solid fa-hotdog"></i>Panchos</div>
-            <div class="cate"><i class="fa-solid fa-burger"></i>Hamburguesa</div>
-            <div class="cate"><i class="fa-solid fa-pizza-slice"></i>Pizza</div>
-            <div class="cate"><i class="fa-solid fa-fish"></i>Pescado</div>
-            <div class="cate"><i class="fa-solid fa-cheese"></i>Queso</div>
-            <div class="cate"><i class="fa-solid fa-bread-slice"></i>Pan</div>
-            <div class="cate"><i class="fa-solid fa-wine-bottle"></i>Vino</div>
-            <div class="cate"><i class="fa-solid fa-candy-cane"></i>Dulces</div>
-            <div class="cate"><i class="fa-solid fa-cake-candles"></i>Pasteles</div>
-            <div class="cate"><i class="fa-regular fa-lemon"></i>Limones</div>
-            <div class="cate"><i class="fa-solid fa-cookie"></i>Galletitas</div>
-            <div class="cate"><i class="fa-solid fa-pepper-hot"></i>Picantes</div>
-            <div class="cate"><i class="fa-solid fa-flask"></i>Cositas Raras</div>
-            <div class="cate"><i class="fa-solid fa-wheat-awn"></i>Para Volar</div>
+            <li>
+                <li><a href="https://www.google.com/search?q=comida+china&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=EtsqZqSDHs3m1sQPm56ZwAg&ved=0ahUKEwik1Jvqtt6FAxVNs5UCHRtPBogQ4dUDCBA&uact=5&oq=comida+china&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGNvbWlkYSBjaGluYTILEAAYgAQYsQMYyQMyCBAAGIAEGJIDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIxRZQ0gFYtRRwAXgAkAEAmAGzAaABhg2qAQQwLjEyuAEDyAEA-AEBmAINoAK-DagCFMICExAAGIAEGEMYtAIYigUY6gLYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICERAuGIAEGLEDGNEDGIMBGMcBwgIOEAAYgAQYsQMYgwEYigXCAggQABiABBixA8ICChAAGIAEGEMYigXCAgoQLhiABBhDGIoFwgILEC4YgAQYsQMYgwHCAg0QABiABBhDGMkDGIoFwgILEAAYgAQYkgMYigXCAhAQABiABBixAxhDGMkDGIoFwgINEAAYgAQYsQMYQxiKBcICCBAuGIAEGLEDmAMKugYECAEYB7oGBggCEAEYCpIHBDEuMTKgB7lp&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-plate-wheat"></i>Comida China</div></a></li>
+                <li><a href="https://www.google.com/search?q=panchos&oq=panchos&gs_lcrp=EgZjaHJvbWUyDwgAEEUYORiDARixAxiABDIHCAEQABiABDINCAIQLhivARjHARiABDIQCAMQLhivARjHARiABBiOBTINCAQQLhivARjHARiABDINCAUQLhivARjHARiABDIQCAYQLhivARjHARiABBiOBTIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDEzNjdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"><div class="cate"><i class="fa-solid fa-hotdog"></i>Panchos</div></a></li>
+                <li><a href="https://www.google.com/search?q=hamburguesa&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=qtsqZuPGDpKq1sQPqomtuAI&ved=0ahUKEwjjw8myt96FAxUSlZUCHapECycQ4dUDCBA&uact=5&oq=hamburguesa&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2hhbWJ1cmd1ZXNhMhAQABiABBixAxhDGMkDGIoFMgsQABiABBiSAxiKBTILEAAYgAQYkgMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAESMkeUNwGWMEdcAF4AZABAJgBnQGgAeALqgEEMC4xMbgBA8gBAPgBAZgCDKACvAyoAhTCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIdEAAYgAQYtAIY1AMY5QIYtwMYigUY6gIYigPYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBwgILEC4YgAQY0QMYxwHCAgUQLhiABMICDhAuGIAEGLEDGNEDGMcBwgIOEC4YgAQYsQMYgwEYigXCAhAQLhiABBixAxhDGIMBGIoFwgIQEC4YgAQYsQMYQxjUAhiKBcICDhAuGIAEGMcBGI4FGK8BwgINEAAYgAQYsQMYQxiKBZgDDLoGBAgBGAe6BgYIAhABGAqSBwQxLjExoAeFXA&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-burger"></i>Hamburguesa</div></a></li>
+                <li><a href="https://www.google.com/search?q=pizza&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=xtsqZtnDGuLN1sQP-MqokAY&ved=0ahUKEwjZvoLAt96FAxXippUCHXglCmIQ4dUDCBA&uact=5&oq=pizza&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXBpenphMhAQABiABBixAxhDGMkDGIoFMgsQABiABBiSAxiKBTILEAAYgAQYkgMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyDRAAGIAEGLEDGEMYigUyExAuGIAEGLEDGNEDGEMYxwEYigUyDRAuGIAEGLEDGEMYigUyChAAGIAEGEMYigUyEBAuGIAEGNEDGEMYxwEYigVI1gxQ8wVY5wtwAXgBkAEAmAGOAaABkgSqAQMwLjS4AQPIAQD4AQGYAgWgAsIEqAIUwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICExAuGIAEGEMYtAIYigUY6gLYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICChAuGIAEGEMYigXCAgsQABiABBixAxiDAcICBBAAGAOYAwy6BgQIARgHugYGCAIQARgKkgcDMS40oAf9SA&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-pizza-slice"></i>Pizza</div></a></li>
+                <li><a href="https://www.google.com/search?q=pescado&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=09sqZtnhDvTh1sQP5uGXmAY&ved=0ahUKEwiZl5DGt96FAxX0sJUCHebwBWMQ4dUDCBA&uact=5&oq=pescado&gs_lp=Egxnd3Mtd2l6LXNlcnAiB3Blc2NhZG8yEBAAGIAEGLEDGEMYyQMYigUyChAAGIAEGEMYigUyCxAAGIAEGJIDGIoFMgsQABiABBiSAxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMggQABiABBixAzIIEC4YgAQYsQNI7Q9QiQVY-Q1wAXgBkAEAmAGXAaAB1QeqAQMwLje4AQPIAQD4AQGYAgigAqgIqAIUwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICGRAuGIAEGNEDGEMYtAIYxwEYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAhAQLhiABBjRAxhDGMcBGIoFwgILEAAYgAQYsQMYgwHCAgoQLhiABBhDGIoFwgINEC4YgAQYsQMYQxiKBcICEBAuGIAEGLEDGEMYgwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICGRAuGIAEGEMYigUYlwUY3AQY3gQY3wTYAQPCAg0QABiABBhDGMkDGIoFwgINEAAYgAQYsQMYQxiKBcICEBAAGIAEGLEDGEMYgwEYigWYAwq6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcDMS43oAfhaA&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-fish"></i>Pescado</div></a></li>
+                <li><a href="https://www.google.com/search?q=queso&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=4dsqZvHtCojR1sQPlLCV6Ao&ved=0ahUKEwix4uLMt96FAxWIqJUCHRRYBa0Q4dUDCBA&uact=5&oq=queso&gs_lp=Egxnd3Mtd2l6LXNlcnAiBXF1ZXNvMhAQLhiABBixAxhDGMkDGIoFMgsQABiABBiSAxiKBTILEAAYgAQYkgMYigUyDRAuGIAEGLEDGEMYigUyChAuGIAEGEMYigUyChAAGIAEGEMYigUyCBAuGIAEGLEDMggQLhiABBixAzIKEAAYgAQYQxiKBTILEC4YgAQYsQMYgwEyHxAuGIAEGLEDGEMYyQMYigUYlwUY3AQY3gQY3wTYAQNI9Q9Q9gZYsQ1wAXgBkAEAmAGOAaABmgWqAQMwLjW4AQPIAQD4AQGYAgagAvYFqAIUwgITEC4YgAQYQxi0AhiKBRjqAtgBAcICExAAGIAEGEMYtAIYigUY6gLYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBwgIFEC4YgATCAgUQABiABMICGRAuGIAEGEMYigUYlwUY3AQY3gQY3wTYAQPCAhAQABiABBixAxhDGIMBGIoFwgINEC4YgAQYQxjJAxiKBcICDhAAGIAEGLEDGIMBGIoFwgIcEC4YgAQYQxjJAxiKBRiXBRjcBBjeBBjfBNgBA8ICEBAuGIAEGLEDGEMYgwEYigWYAwu6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcDMS41oAfRoAE&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-cheese"></i>Queso</div></a></li>
+                <li><a href="https://www.google.com/search?q=pan&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=7tsqZvDoFsDe1sQPwpKo4Ac&ved=0ahUKEwjwl4jTt96FAxVAr5UCHUIJCnwQ4dUDCBA&uact=5&oq=pan&gs_lp=Egxnd3Mtd2l6LXNlcnAiA3BhbjIQEAAYgAQYsQMYQxjJAxiKBTIKEC4YgAQYQxiKBTILEAAYgAQYkgMYigUyEBAuGIAEGNEDGEMYxwEYigUyEBAuGIAEGLEDGEMYgwEYigUyDRAuGIAEGLEDGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAAGIAEGEMYigUyChAuGIAEGEMYigVI0wtQkQVYtQdwAXgBkAEAmAGgAaABtQOqAQMwLjO4AQPIAQD4AQGYAgSgAt0DqAIUwgITEC4YgAQYQxi0AhiKBRjqAtgBAcICExAAGIAEGEMYtAIYigUY6gLYAQHCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AECwgIWEC4YAxi0AhjlAhjqAhiMAxiPAdgBAsICCxAAGIAEGLEDGIMBmAMLugYECAEYB7oGBggCEAEYCpIHAzEuM6AHkF8&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-bread-slice"></i>Pan</div></a></li>
+                <li><a href="https://www.google.com/search?q=vino&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=_tsqZtiNJLLc1sQPj8WBqAs&ved=0ahUKEwjYhObat96FAxUyrpUCHY9iALUQ4dUDCBA&uact=5&oq=vino&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHZpbm8yEBAAGIAEGLEDGEMYyQMYigUyCxAAGIAEGJIDGIoFMgsQABiABBiSAxiKBTIKEC4YgAQYQxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYsQMyCBAuGIAEGLEDMgsQLhiABBixAxiDATIFEAAYgAQyBRAAGIAESLcMUPsEWJEJcAF4AZABAJgBlgGgAZcEqgEDMC40uAEDyAEA-AEBmAIFoALJBKgCCsICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQHCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AEBwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFwgIdEC4YgAQYsQMY0QMYxwEYlwUY3AQY3gQY4ATYAQLCAhAQLhiABBjRAxhDGMcBGIoFwgIFEC4YgATCAhYQLhiABBixAxjRAxhDGIMBGMcBGIoFmAMFugYECAEYCroGBggCEAEYFJIHAzEuNKAHhEw&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-wine-bottle"></i>Vino</div></a></li>
+                <li><a href="https://www.google.com/search?q=dulce&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=CtwqZoaWFvPS1sQPk9-mgA4&ved=0ahUKEwiGw7Tgt96FAxVzqZUCHZOvCeAQ4dUDCBA&uact=5&oq=dulce&gs_lp=Egxnd3Mtd2l6LXNlcnAiBWR1bGNlMhAQABiABBixAxhDGMkDGIoFMgoQABiABBhDGIoFMgsQABiABBiSAxiKBTILEAAYgAQYkgMYigUyEBAuGIAEGLEDGEMYgwEYigUyCxAuGIAEGLEDGIMBMggQLhiABBixAzILEC4YgAQYsQMYgwEyBRAAGIAEMgUQABiABEjHC1DEA1iZCnABeAGQAQCYAaQBoAGvBaoBAzAuNbgBA8gBAPgBAZgCBqAC6gWoAhTCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAg4QLhiABBixAxjRAxjHAcICCBAAGIAEGLEDwgILEC4YgAQY0QMYxwHCAhEQLhiABBixAxjRAxiDARjHAcICCxAAGIAEGLEDGIMBwgIdEC4YgAQYsQMY0QMYxwEYlwUY3AQY3gQY4ATYAQPCAg0QLhiABBixAxhDGIoFwgIFEC4YgATCAg4QLhiABBixAxiDARiKBZgDCboGBAgBGAe6BgYIAhABGAq6BgYIAxABGBSSBwMxLjWgB7GZAQ&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-candy-cane"></i>Dulces</div></a></li>
+                <li><a href="https://www.google.com/search?q=pasteles&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=FNwqZrqLGMjn1sQPhLOlgA8&ved=0ahUKEwi65Zjlt96FAxXIs5UCHYRZCfAQ4dUDCBA&uact=5&oq=pasteles&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgBIghwYXN0ZWxlczIKEAAYgAQYQxiKBTILEAAYgAQYkgMYigUyCxAAGIAEGJIDGIoFMhAQABiABBixAxhDGMkDGIoFMgoQABiABBhDGIoFMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIFEAAYgARI5xFQuAdY-RBwAXgBkAEBmAGGAqABrQmqAQUwLjYuMbgBA8gBAPgBAZgCB6AC7AeoAhTCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICFhAAGAMYtAIY5QIY6gIYjAMYjwHYAQLCAhYQLhgDGLQCGOUCGOoCGIwDGI8B2AECwgIKEC4YgAQYQxiKBcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICGRAuGIAEGEMYigUYlwUY3AQY3gQY4ATYAQPCAhAQLhiABBjRAxhDGMcBGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICDRAAGIAEGEMYyQMYigXCAg0QLhiABBixAxhDGIoFmAMLugYECAEYB7oGBggCEAEYCroGBggDEAEYFJIHAzEuNqAHwVE&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-cake-candles"></i>Pasteles</div></a></li>
+                <li><a href="https://www.google.com/search?q=limones&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=H9wqZsScN-LJ1sQPzYKRwAo&ved=0ahUKEwiEqNfqt96FAxXipJUCHU1BBKgQ4dUDCBA&uact=5&oq=limones&gs_lp=Egxnd3Mtd2l6LXNlcnAiB2xpbW9uZXMyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESP8PUPoGWOgOcAF4AZABAJgBjgGgAbMHqgEDMC43uAEDyAEA-AEBmAIIoAKKCKgCFMICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgsQLhiABBixAxiDAcICCBAuGIAEGLEDwgIOEAAYgAQYsQMYgwEYigXCAhoQLhiABBixAxiDARiXBRjcBBjeBBjgBNgBA8ICEBAuGIAEGLEDGEMYgwEYigXCAgoQLhiABBhDGIoFwgIOEC4YgAQYsQMYgwEYigXCAh8QLhiABBixAxhDGIMBGIoFGJcFGNwEGN4EGOAE2AEDwgIaEC4YgAQYsQMYgwEYlwUY3AQY3gQY3wTYAQOYAwm6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcDMS43oAfKjwE&sclient=gws-wiz-serp"><div class="cate"><i class="fa-regular fa-lemon"></i>Limones</div></a></li>
+                <li><a href="https://www.google.com/search?q=galletitas&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=LtwqZov2JJDS1sQPl6WQkAw&ved=0ahUKEwiLxdjxt96FAxUQqZUCHZcSBMIQ4dUDCBA&uact=5&oq=galletitas&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmdhbGxldGl0YXMyCBAAGIAEGLEDMggQLhiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEC4YgAQyBRAAGIAESIcbUMQEWKkVcAF4AZABAJgBiQGgAY4KqgEEMC4xMLgBA8gBAPgBAZgCC6AC8QqoAhTCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgITEAAYgAQYQxi0AhiKBRjqAtgBAcICHRAAGIAEGLQCGNQDGOUCGLcDGIoFGOoCGIoD2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgoQLhiABBhDGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICCxAAGIAEGLEDGIMBwgILEC4YgAQY0QMYxwHCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGIoFwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjfBNgBA8ICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIOEC4YgAQYsQMYgwEY1AKYAwm6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcEMS4xMKAH7b4B&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-cookie"></i>Galletitas</div></a></li>
+                <li><a href="https://www.google.com/search?q=picantes&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=O9wqZrbuHKHM1sQP29-E8A0&ved=0ahUKEwj29-n3t96FAxUhppUCHdsvAd4Q4dUDCBA&uact=5&oq=picantes&gs_lp=Egxnd3Mtd2l6LXNlcnAiCHBpY2FudGVzMgcQABiABBgKMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESMwTULAGWL4RcAF4AZABAJgBoQGgAe8IqgEDMC44uAEDyAEA-AEBmAIJoAK2CagCFMICExAAGIAEGEMYtAIYigUY6gLYAQHCAhMQLhiABBhDGLQCGIoFGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgoQABiABBhDGIoFwgIQEAAYgAQYsQMYQxiDARiKBcICCxAAGIAEGLEDGIMBwgIEEAAYA8ICChAuGIAEGEMYigXCAgUQLhiABMICCBAAGIAEGLEDwgIQEC4YgAQYsQMYQxiDARiKBcICCBAuGIAEGLEDwgIUEC4YgAQYsQMYgwEYxwEYigUYrwHCAgsQABiABBixAxjJA8ICCxAAGIAEGJIDGIoFwgIOEC4YgAQYxwEYjgUYrwGYAwi6BgQIARgHugYGCAIQARgKkgcDMS44oAfPZg&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-pepper-hot"></i>Picantes</div></a></li>
+                <li><a href="https://www.google.com/search?q=steroides&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=StwqZtD7IqzZ1sQP1aqloAk&ved=0ahUKEwjQyIP_t96FAxWsrJUCHVVVCZQQ4dUDCBA&uact=5&oq=steroides&gs_lp=Egxnd3Mtd2l6LXNlcnAiCXN0ZXJvaWRlczIKEAAYgAQYsQMYCjIKEAAYgAQYsQMYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkj9gwJQyecBWKiDAnACeAGQAQCYAZoBoAG2CaoBAzAuObgBA8gBAPgBAZgCC6ACsgqoAhTCAh0QABiABBi0AhjUAxjlAhi3AxiKBRjqAhiKA9gBAcICGhAAGIAEGLQCGOUCGLcDGIoFGOoCGIoD2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQLCAgoQLhiABBhDGIoFwgIFEAAYgATCAgsQABiABBixAxiDAcICCxAuGIAEGNEDGMcBwgIOEC4YgAQYsQMYgwEYigXCAgsQLhiABBixAxiDAcICERAuGIAEGLEDGNEDGIMBGMcBwgIOEAAYgAQYsQMYgwEYigXCAhkQLhiABBhDGIoFGJcFGNwEGN4EGN8E2AEDwgIKEAAYgAQYQxiKBcICCBAuGIAEGLEDwgIIEAAYgAQYsQPCAgUQLhiABMICDhAuGIAEGLEDGIMBGNQCwgILEC4YgAQYxwEYrwHCAhcQLhiABBixAxiXBRjcBBjeBBjfBNgBA8ICBxAuGIAEGAqYAwi6BgQIARgHugYGCAIQARgKugYGCAMQARgUkgcDMi45oAfGmQE&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-flask"></i>Cositas Raras</div></a></li>
+                <li><a href="https://www.google.com/search?q=drogas&sca_esv=c23ff5f34ecefdf6&sca_upv=1&ei=dNwqZp7gGqjL1sQPsKeDqAs&ved=0ahUKEwie6v6SuN6FAxWopZUCHbDTALUQ4dUDCBA&uact=5&oq=drogas&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmRyb2dhczIQEAAYgAQYsQMYQxiDARiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIFEAAYgAQyChAAGIAEGEMYigVIxw9QkARYsg1wAXgBkAEAmAGKAaAB9wWqAQMwLja4AQPIAQD4AQGYAgegAqoGqAIKwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAcICFhAuGAMYtAIY5QIY6gIYjAMYjwHYAQHCAggQABiABBixA8ICERAuGIAEGLEDGNEDGIMBGMcBwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCBAuGIAEGLEDmAMG4gMFEgExIEC6BgQIARgKkgcDMS42oAeLMA&sclient=gws-wiz-serp"><div class="cate"><i class="fa-solid fa-wheat-awn"></i>Para Volar</div></a></li>
+            </li>
         </section>
     </header>
     <main>
+        <h3>Lugares con Ofertas</h3>
         <section class="resultado">
-            <h3>Hola</h3>
-            <article class="resto">1</article>
-            <article class="resto">2</article>
-            <article class="resto">3</article>
-            <article class="resto">4</article>
+            <article class="resto resto1">
+                <div class="foto-ofertas foto1">
+                    <div class="dis-ofertas">3km</div>
+                </div>
+                <div class="cuerpo-ofertas">
+                    <a href="restaurante.html"></a>
+                    <div class="cali-ofertas">5</div>
+                    <div class="nom-ofertas"> <b>Pepe Rico</b></div>
+                    <div class="dire-ofertas">Cuba, por ahi, 15min 
+                        <p>9:00-11:00</p>
+                    </div>
+                    <div class="estrellas-ofertas">***** (50)</div>
+                    <div class="preci-ofertas">$$$$$</div>
+                </div>
+            </article>
+
+            <article class="resto resto2">
+                <div class="foto-ofertas foto2">
+                    <div class="dis-ofertas">5km</div>
+                </div>
+                <div class="cuerpo-ofertas">
+                    <div class="cali-ofertas">4.5</div>
+                    <div class="nom-ofertas"> <b>Jose Rico</b></div>
+                    <div class="dire-ofertas">Holanda, por aca, 25min 
+                        <p>1:00-20:00</p>
+                    </div>
+                    <div class="estrellas-ofertas">****´ (75)</div>
+                    <div class="preci-ofertas">$$$$</div>
+                </div>
+            </article>
+            
+            <article class="resto">
+                <div class="foto-ofertas foto3">
+                    <div class="dis-ofertas">10km</div>
+                </div>
+                <div class="cuerpo-ofertas">
+                    <div class="cali-ofertas">1</div>
+                    <div class="nom-ofertas"> <b>Pepe Rico</b></div>
+                    <div class="dire-ofertas">Argentina, por alla, 50min 
+                        <p>00:00-5:00</p>
+                    </div>
+                    <div class="estrellas-ofertas">*´´´´ (5)</div>
+                    <div class="preci-ofertas">$</div>
+                </div>
+            </article>
+            <article class="resto">
+                <div class="foto-ofertas foto4">
+                    <div class="dis-ofertas">1km</div>
+                </div>
+                <div class="cuerpo-ofertas">
+                    <div class="cali-ofertas">5.5</div>
+                    <div class="nom-ofertas"> <b>Pepe Rico</b></div>
+                    <div class="dire-ofertas">Antartida, sanpolar, 2min 
+                        <p>0:00-24:00</p>
+                    </div>
+                    <div class="estrellas-ofertas">****** (250)</div>
+                    <div class="preci-ofertas">$$$$$$$$$</div>
+                </div>
+            </article>
         </section>
     </main>
     <footer></footer>

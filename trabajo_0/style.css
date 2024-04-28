@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .banner {
     width: 93px;
@@ -31,6 +36,7 @@
     margin-top: 56px;
     background: aliceblue;
     padding: 14px;
+    
 }
 
 .productitos{
@@ -39,6 +45,13 @@
     padding: 12px;
     display: grid;
     justify-items: center;
+
+    .text-producto {
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        height: 161px;
+    }
 }
 
 
@@ -68,10 +81,19 @@ input[type="button"] {
 }
 
 .staffitos{
-    width: 100%;
+    width: 40%;
     height: 30vh;
     border-radius: 20px;
     padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    .text-stafitos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #allStaffitos{
@@ -80,12 +102,6 @@ input[type="button"] {
     justify-content: center;
     justify-items: center;
     margin-top: 24px;
-}
-.button{
-    width: 70%;
-    align-content: center;
-    margin-top: 10px;
-    display: grid;
 }
 
 
@@ -100,6 +116,7 @@ footer{
     justify-content: center;
     display: flex;
     font-size: 36px;
+    margin-top: 53px;
 }
 
 .algo{
@@ -113,8 +130,6 @@ footer{
 .total{
     justify-content: center;
     justify-items: center;
-    width: 80vw;
-    height: 70vh;
     display: grid;
 }
 
@@ -127,16 +142,38 @@ footer{
 }
 
 .cosita2 {
-    width: 17vw;
+    width: 275px;
     font-size: 18px;
     margin-top: 100px;
     position: absolute;
-    left: 194px;
+    left: 210px;
+    height: 136px;
 }
 
 body{
     display: grid;
     place-items: center;
+}
+
+.button {
+    width: 70%;
+    background-color: rgb(50, 81, 255);
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    position: relative;
+    bottom: -30%;
+    border-radius: 10px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    height: auto;
+    width: 70%;
 }
 
 .producto1{ background-color: aquamarine;}
