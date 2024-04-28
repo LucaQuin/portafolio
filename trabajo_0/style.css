@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 .banner {
-    width: 93px;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    width: 100%;
-    height: 36vh;
+    width: 97%;
+    height: 269px;
+    background-image: url("imagenes/akira_god.jpg");
+    background-position: center -82px;
+    background-size: cover;
 }
 .header{
     margin-block: 50px;
     background: darkgray;
-    width: 100%;
+    width: 98%;
     display: flex;
     align-items: center;
 }
@@ -24,36 +29,40 @@
     align-items: center;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 288px;
     margin-top: 23px;
     position: relative;
 }
 
 .productos{
     display: flex;
-    width: 105%;
+    width: 100%;
     justify-content: space-around;
     margin-top: 56px;
     background: aliceblue;
-    padding: 14px;
-    
+    padding: 14px;  
+    height: auto;
 }
-
-.productitos{
+.imagen {
+    background-image: url(imagenes/goku_angel.jpg);
+    width: 53%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 139px;
+}
+.productitos {
     width: 18vw;
-    height: 57vh;
+    height: 489px;
     padding: 12px;
     display: grid;
     justify-items: center;
-
-    .text-producto {
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        height: 161px;
-    }
 }
-
+.text{
+    width: 100%;
+    height: auto;
+}
 
 .staff{
     display: grid;
@@ -120,7 +129,7 @@ footer{
 }
 
 .algo{
-    width: 70%;
+    width: 63%;
 }
 
 .algo2{
@@ -146,7 +155,7 @@ footer{
     font-size: 18px;
     margin-top: 100px;
     position: absolute;
-    left: 210px;
+    left: 217px;
     height: 136px;
 }
 
@@ -167,6 +176,21 @@ body{
     bottom: -30%;
     border-radius: 10px;
     height: 25px;
+}
+.foto-kri {
+    background-image: url("imagenes/krillin.jpg");
+    background-position: center -9px;
+    background-size: cover;
+    width: 100%;
+    height: 228px;
+}
+
+.foto-vege {
+    background-image: url("imagenes/Vegeta.jpg");
+    background-position: center 0px;
+    background-size: cover;
+    width: 100%;
+    height: 228px;
 }
 
 a{
