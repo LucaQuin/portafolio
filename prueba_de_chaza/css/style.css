@@ -116,6 +116,9 @@ body {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        .boton:hover{
+                            color:rgb(186, 254, 27);
+                            background-color:rgb(black);
                     }
                 }
             }
