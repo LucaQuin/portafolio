@@ -116,6 +116,7 @@ body {
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                    }
                 }
             }
             .linea2{
@@ -124,5 +125,4 @@ body {
                 background-color: gray;
             }
         }
-    }
 }
