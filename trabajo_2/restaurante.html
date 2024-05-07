@@ -14,7 +14,7 @@
 
     <header>
         <section class="portada">
-            <div class="foto"></div>
+            <div class="foto"><div class="cruz"><a href="index.html">X</a></div></div>
             <div class="calificacion">4</div>
             <div class="informacion">
                 <div class="cuerpo-ofertas">
@@ -30,7 +30,7 @@
 
 
     <main>
-        <section class="resultado1">
+        <section id="resultado1">
             <div class="encabezado">
                 <div class="hor"><i class="fa-regular fa-clock"></i><p>9:00-11:00</p></div>
                 <div class="hor"><i class="fa-solid fa-location-dot"></i><p>3km</p></div>
@@ -45,11 +45,24 @@
 
     <nav>
         <ul>
-            <li>coso1</li>
-            <li>coso2</li>
-            <li>coso3</li>
+            <a href="restaurante.html" id="boton-nav1" onclick='resultado1();'>Coso1</a>
+            <a href="menu.html" id="boton-nav2" onclick='resultado2();'>Coso2</a>
+            <a href="troleado.html" id="boton-nav3"><li>Coso3</li></button>
         </ul>
     </nav>
+
+    <!-- <script>
+        function resultado1(){
+            var x=document.getElementById("resultado1");
+            if (x.style.display === "none"){
+                document.getElementById("resultado1").style.display = 'block';
+            }
+            
+        }
+        function resultado2(){
+            document.getElementById("resultado1").style.display = 'none';
+        }
+    </script> -->
     
 </body>
 </html>
