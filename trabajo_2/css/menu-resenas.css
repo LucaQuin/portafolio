@@ -14,7 +14,7 @@ body {
 header{
     height: 10%;
     width: 100%;
-    section.menu {
+    section.resenas {
         height: 100%;
         width: 100%;
         background-color: white;
@@ -64,7 +64,7 @@ main{
         display: flex;
         flex-wrap: wrap;
 
-        .menu{
+        .resena{
             width: 100%;
             height: 13%;
             display: flex;
@@ -79,7 +79,7 @@ main{
                 font-size: 30px;
             }
         }
-        .platos{
+        .reseñas-total{
             height: 87%;
             width: 100%;
             display: flex;
@@ -91,18 +91,18 @@ main{
             a{
                 width: 48%;
                 height: 40%;
-                .plato{
+                .reseña{
                     width: 100%;
                     height: 100%;
                     display: flex;
 
-                    .foto-plato{
+                    .foto-reseña{
                         width: 40%;
                         height: 100%;
-                        background-image: url("https://www.bing.com/th?id=OIP.xGC4ozOkdmtQkjujbsOMqgHaE8&w=163&h=106&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2");
+                        background-image: url("https://th.bing.com/th?id=OIP.tMEC2tA154wWSpUoKth8MwHaJn&w=219&h=284&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2");
                         background-position: center;
                         background-size: cover;
-                        .precio-plato {
+                        .precio-reseña {
                             width: 36%;
                             height: auto;
                             background-color:aquamarine;
@@ -117,7 +117,7 @@ main{
                         }
                     }
 
-                    .info-plato{
+                    .info-reseña{
                         width: 60%;
                         height: 100%;
 
@@ -185,7 +185,7 @@ nav{
 
 @media (orientation:portrait){
     header{
-        section.menu {        
+        section.resenas {        
             a {
                 width: 10%;
                 height: 100%;
@@ -210,19 +210,19 @@ nav{
             flex-basis: 100%;
             flex: 0 0 calc(100% - 10px);
 
-            .platos{
+            .reseñas-total{
                 flex-grow: 0;
                 flex-shrink: 0;
                 flex-basis: 103%;
                 flex: 0 0 calc(103% - 10px);
                 a{
                     width: 100%;
-                    .plato{
+                    .reseña{
 
     
-                        .foto-plato{
+                        .foto-reseña{
                             width: 40%;
-                            .precio-plato {
+                            .precio-reseña {
                                 width: 40%;
                                 left: 60%;
                                 top: 84%;
@@ -230,7 +230,7 @@ nav{
                             }
                         }
     
-                        .info-plato{
+                        .info-reseña{
                             width: 60%;
     
                             .nombre {
