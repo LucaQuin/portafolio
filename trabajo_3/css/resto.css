@@ -1,0 +1,209 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    overflow: cover;
+}
+
+header{
+    width: 100%;
+    height: 50%;
+    
+
+    .portada{
+        width: 100%;
+        height: 100%;
+
+        .foto{
+            width: 100%;
+            height: 70%;
+            background-image: url("https://img.freepik.com/foto-gratis/restaurante-paredes-ladrillo-rojo-mesas-madera-tuberias-techo_140725-8504.jpg");
+            background-position: center;
+            background-size: cover;
+            border-bottom: solid;
+            .cruz {
+                height: 10px;
+                width: 10px;
+                scale: 2;
+                position: relative;
+                left: 20px;
+                top: 10px;
+                text-shadow: 10px 10px 5px 10px black;
+
+                a{
+                color: blue;
+                }
+            }
+            }
+    
+        .calificacion {
+            background-color: rgb(59, 224, 59);
+            color: white;
+            width: 9%;
+            height: 8%;
+            position: absolute;
+            right: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            border-radius: 34px;
+            font-size: 40px;
+        }
+
+        .informacion {
+            width: 100%;
+            height: 30%;
+        }
+
+        .cuerpo-ofertas{
+            width: 100%;
+            height: 30%;
+
+            .nom-ofertas {
+                width: fit-content;
+                height: fit-content;
+                font-size: 40px;
+                position: relative;
+                left: 16%;
+                top: 6%;
+            }
+
+            .preci-ofertas {
+                width: 10px;
+                height: auto;
+                left: 81%;
+                position: relative;
+                top: -143%;
+                font-size: 25px;
+            }
+
+            .dire {
+                font-size: 23px;
+                width: fit-content;
+                height: fit-content;
+                position: relative;
+                top: 12%;
+                left: 17%;
+            }
+        }
+    }
+    
+}
+
+main{
+    width: 100%;
+    height: 40%;
+
+    #resultado1{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+        .encabezado {
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+
+            .hor {
+                height: auto;
+                display: grid;
+                justify-items: center;
+            }
+        }
+    }
+
+    .res {
+        margin-top: 10px;
+        width: 100%;
+        height: 86%;
+        padding: 20px;
+        overflow: scroll;
+        overflow-y: inherit;
+    }
+}
+
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    ul {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+
+        #boton-nav1, #boton-nav2, #boton-nav3{
+            text-decoration: none;
+            color: gray;
+            list-style: none;
+            width: 33.333%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 23px;
+            cursor: pointer;
+        }
+        #boton-nav1:hover, #boton-nav2:hover, #boton-nav3:hover{
+            border-top: solid green;
+            border-right: solid green;
+            border-left: solid green;
+            color: black;
+        }
+    }
+}
+
+@media (orientation:portrait){
+    header{
+        
+        .portada{
+            .calificacion {
+                width: 9%;
+                height: 6%;
+                right: 32px;
+                top: 32%;
+                font-size: 26px;
+            }
+            .informacion{
+                .nom-ofertas{
+                    font-size: 35px;
+                    
+                }
+                .dire{
+                    font-size: 20px;
+                }
+                .preci-ofertas {
+                    position: relative;
+                    top: -72%;
+                    left: 67%;
+                }
+            }    
+        }
+    }
+    main{
+        .resultado1{
+            .encabezado {
+                font-size: 17px;
+                top: 10px;
+                position: relative;
+            }
+            .res {
+                margin-top: 13px;
+                height: 84%;
+                font-size: 50px;
+                background-color: aqua;
+            }
+        }
+    }
+}

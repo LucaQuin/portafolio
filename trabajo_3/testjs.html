@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeo o Pruebas</title>
+    <link rel="stylesheet" href="css-acc/style.css">
+</head>
+<body>  
+    <div class="contenedor">
+        <ul id="productos">
+            <li>jose</li>
+            <li id="producto">roberto</li>
+        </ul>
+    </div>
+
+    <footer>
+        <button id="resta" onclick="disminuir()">-</button>
+        <p id="contador"> 2 </p>
+        <button id="suma" onclick="aumentar()">+</button>
+    </footer>
+
+    <!-- <nav>
+        <ul>
+            <div class="cont"> <div class="suma"><input type="button" id="sum" onclick='suma();' value="+"></div> <div class="num"><input type="text" id="total" value="1" disabled></div> <div class="res"><input type="button" id="res" onclick='resta();' value="-"></div> </div> 
+            <a href="plato.html" id="boton-nav2" >AGREGAR AL CARRITO</a>
+        </ul>
+    </nav> -->
+
+    
+
+    <!-- <script>
+        function suma(){
+            let x= Number(document.getElementById("total").value);
+            let total=x;
+            if (10>x){
+                total=x+1;
+            }
+            document.getElementById("total").value = total;
+        }
+
+        function resta(){
+            let x= Number(document.getElementById("total").value);
+            let total=x;
+            if (1<x){
+                total=x-1;
+            }
+            document.getElementById("total").value = total;
+        }
+
+        function total(){
+            document.getElementById("total").style.border=none;
+        }
+    </script> -->
+
+    <script src="JS/acciones.js"></script>
+</body>
+</html>
