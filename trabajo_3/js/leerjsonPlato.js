@@ -42,11 +42,8 @@ fetch('json/platos_argentinos.json')
         // }
        
          resto.innerHTML +=
-         /*html*/`
-         
-         <a href="plato.html"><div class="plato">
-                    <div class="foto-plato"><img src=${data[i].image}></div>
-                    <div class="precio-pre">${data[i].price}</div> 
+         `       <a href="plato.html"><div class="plato">
+                    <div class="foto-plato"><img src=${data[i].image}><div class="precio-pre">${data[i].price}</div></div>
                     <div class="info-plato">
                     <div class="plato-nombre">${data[i].plato}</div>
                     <div class="ingre">${data[i].ingredients}</div> 

@@ -16,16 +16,17 @@ function pintarDato() {
   resultadoA.innerText = a;
 }
 
-function pintarDatoLocal() {
-  let b = valorBc.value;
-  localStorage.setItem("titulo", b);
-  alert("El valor ingresado es: " + b);
+function pintarDatoLocal(coso) {
+  // let b = valorBc.value;
+  // localStorage.setItem("titulo", b);
+  // alert("El valor ingresado es: " + b);
+  alert(coso);
 }
 
 function borrarLocal(){
     localStorage.clear();
 }
 
-let resultadoB = document.getElementById("resulB");
-resultadoB.innerHTML = localStorage.getItem("titulo");
-console.log(localStorage.getItem("titulo"));
+// let resultadoB = document.getElementById("resulB");
+// resultadoB.innerHTML = localStorage.getItem("titulo");
+// console.log(localStorage.getItem("titulo"));

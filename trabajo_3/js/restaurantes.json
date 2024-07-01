@@ -14,6 +14,12 @@
         "alt": "",
         "title": ""
       },
+      "platos":{
+        "plato_name1":"Empanadas",
+        "plato_name2":"Asado",
+        "plato_name3":"Milanesa",
+        "plato_name4":"Locro"
+      },
       "website": "",
       "facebook_url": "https://www.facebook.com/kingofthewingsbrisbane/",
       "instagram_handle": "wingstigram ",
@@ -21,7 +27,9 @@
       "direccion": "La Habana 50, Tortuguitas",
       "horario": "9.00 - 15.00hs",
       "puntuacion": "4",
-      "rango": "3"
+      "rango": "3",
+      "dista": "6",
+      "deli": "true"
     },
     {
       "truck_id": "71",
@@ -45,7 +53,9 @@
       "direccion": "Mar del Plata 8823, Tortuguitas",
       "horario": "9.00 - 15.00hs",
       "puntuacion": "star star star star",
-      "rango": "3"
+      "rango": "3",
+      "dista": "6",
+      "deli": "false"
     },
     {
       "truck_id": "91",
@@ -65,7 +75,9 @@
       "direccion": "Sarratea 583, Villa de Mayo",
       "horario": "12.00 - 23.00hs",
       "puntuacion": "star star",
-      "rango": "2"
+      "rango": "2",
+      "dista": "6",
+      "deli": true
     },
     {
       "truck_id": "96",
@@ -89,7 +101,9 @@
       "direccion": "Colonia Carolla, Córdoba",
       "horario": "11.00 - 02.00hs",
       "puntuacion": "star star person",
-      "rango": "3"
+      "rango": "3",
+      "dista": "6",
+      "deli": true
     },
     {
       "truck_id": "106",
@@ -113,7 +127,9 @@
       "direccion": "Av. Santa Fé 3344, Palermo",
       "horario": "11.00 - 02.00hs",
       "puntuacion": "3",
-      "rango": "4"
+      "rango": "4",
+      "dista": "6",
+      "deli": true
     },
     {
       "truck_id": "116",
@@ -137,7 +153,9 @@
       "direccion": "Av. Marquez 3344, San Isidro",
       "horario": "10.00 - 22.00hs",
       "puntuacion": "2",
-      "rango": "5"
+      "rango": "5",
+      "dista": "6",
+      "deli": true
     },
     {
       "truck_id": "121",
@@ -161,7 +179,9 @@
       "direccion": "Av. Costanera S/N, Villurca",
       "horario": "10.00 - 22.00hs",
       "puntuacion": "5",
-      "rango": "3"
+      "rango": "3",
+      "dista": "6",
+      "deli": true
     },
     {
       "truck_id": "131",

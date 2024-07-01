@@ -1,0 +1,59 @@
+[
+    {
+        "nombre": "Gabriel",
+        "description": "Bandeja de pancito",
+        "price": "0",
+        "image": "https://th.bing.com/th/id/OIP.xT7Z1IcYfCP6ifEnqLWD_QHaIJ?rs=1&pid=ImgDetMain",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Asco de comida tio"
+    },
+    {
+        "nombre": "Luca",
+        "description": "Fideos con manteca",
+        "price": "2.5",
+        "image": "https://th.bing.com/th/id/R.42f7fd526cc94b557961a7d3f4d41994?rik=hDivNwvfJygXCA&pid=ImgRaw&r=0",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"los fideos estaban a una temperatura estable "
+    },
+    {
+        "nombre": "Maylen",
+        "description": "Asado con ensalada",
+        "price": "5",
+        "image": "https://flyclipart.com/thumbs/mujer-sonriendo-dovolnaya-devushka-1153985.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Muy rico exelente servicios "
+    },
+    {
+        "nombre": "Facundo",
+        "description": "Ensalada con pollo",
+        "price": "2",
+        "image": "https://th.bing.com/th/id/OIP.cAgwGiE-mcYL3LPwaThQwgHaJC?rs=1&pid=ImgDetMain",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"falta aceite"
+    },
+   
+    {
+        "nombre": "Dante",
+        "description": "Ñoquis",
+        "price": "4.5",
+        "image": "https://www.pngmart.com/files/15/Smiling-Business-Man-Standing-PNG-Image.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"riquisima la comida "
+    },
+    {
+        "nombre": "Lucila",
+        "description": "Milanesa laponitana",
+        "price": "3.5",
+        "image": " https://www.kindpng.com/picc/m/449-4493194_persona-fotos-hd-png-download.png",
+        "ingredients": "Meat, cheese, vegetables",
+        "opinion":"Falta de personal "
+    },
+    {
+        "nombre": "Jose rupeste",
+        "description": "nada",
+        "price": "0",
+        "image": " https://th.bing.com/th/id/OIP.La0sFymuTDgSjRZQ4e7FcAHaFE?w=242&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7",
+        "ingredients": "nada",
+        "opinion":"Faltan chicas lindas "
+    }
+]

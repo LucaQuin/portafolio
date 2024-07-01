@@ -63,6 +63,8 @@ main{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        overflow-y: scroll;
+        justify-content: center;
 
         .resena{
             width: 100%;
@@ -80,17 +82,12 @@ main{
             }
         }
         .reseñas-total{
-            height: 87%;
-            width: 100%;
+            width: 48%;
+            height: 40%;
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
             padding: 10px;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            a{
-                width: 48%;
-                height: 40%;
                 .reseña {
                     width: 100%;
                     height: 100%;
@@ -103,9 +100,13 @@ main{
                     .foto-reseña{
                         width: 40%;
                         height: 100%;
-                        background-image: url("https://th.bing.com/th?id=OIP.tMEC2tA154wWSpUoKth8MwHaJn&w=219&h=284&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2");
+                        /* background-image: url("https://th.bing.com/th?id=OIP.tMEC2tA154wWSpUoKth8MwHaJn&w=219&h=284&c=8&rs=1&qlt=90&o=6&dpr=1.2&pid=3.1&rm=2"); */
                         background-position: center;
                         background-size: cover;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
                         .precio-reseña {
                             width: 36%;
                             height: auto;
@@ -116,7 +117,7 @@ main{
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            top: 81%;
+                            bottom: 20%;
                             font-size: 24px;
                         }
                     }
@@ -127,7 +128,7 @@ main{
 
                         .nombre {
                             position: relative;
-                            font-size: 26px;
+                            font-size: 20px;
                             width: 95%;
                             color: darkgray;
                             top: 6%;
@@ -139,11 +140,11 @@ main{
                             position: relative;
                             top: 11%;
                             left: 10%;
-                            width: 123px;
+                            width: 89%
+                            ;
                             height: auto;
-                            overflow: auto;
                         }
-                    }
+                    
                 }
             }
         }
@@ -186,6 +187,12 @@ nav{
 
 
 }
+:root{
+    .dark{
+        color: black!important;
+    }
+}
+
 
 @media (orientation:portrait){
     header{
@@ -251,7 +258,7 @@ nav{
                                 position: relative;
                                 top: 23%;
                                 left: 10%;
-                                width: 199px;
+                                width: 89%;
                             }
                         }
                     }

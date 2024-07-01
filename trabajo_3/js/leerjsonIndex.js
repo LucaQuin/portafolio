@@ -44,7 +44,7 @@ fetch('js/restaurantes.json')
          resto.innerHTML +=
          /*html*/`
          
-         <a href="restaurante.html">
+         <a href="restaurante.html" onclick="pintarDatoLocal('${data[i].truck_id}')">
                 <article class="resto">
                     <div class="foto-ofertas">
                         <img src="${data[i].avatar.src}" alt=" " class="imagen">
