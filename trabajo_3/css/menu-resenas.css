@@ -227,8 +227,11 @@ nav{
                 flex-shrink: 0;
                 flex-basis: 103%;
                 flex: 0 0 calc(103% - 10px);
+                height: 219px;
                 a{
                     width: 100%;
+                
+
                     .reseña{
 
     
