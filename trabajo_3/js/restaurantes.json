@@ -15,10 +15,7 @@
         "title": ""
       },
       "platos":{
-        "plato_name1":"Empanadas",
-        "plato_name2":"Asado",
-        "plato_name3":"Milanesa",
-        "plato_name4":"Locro"
+        "plato_name":["Empanadas","Asado","Milanesa","Locro"]
       },
       "website": "",
       "facebook_url": "https://www.facebook.com/kingofthewingsbrisbane/",
@@ -45,6 +42,9 @@
         "src": "https://www.bnefoodtrucks.com.au/sites/foodtrucks/files/styles/header/public/images/Koma%20Sliders/untitled.jpg?itok=C7S-gErO",
         "alt": "",
         "title": ""
+      },
+      "platos":{
+        "plato_name":["Ceviche","Lomo Saltado","Aji de Gallina","Anticuchos"]
       },
       "website": "https://www.komasliders.com.au/",
       "facebook_url": "https://www.facebook.com/komasliders/",

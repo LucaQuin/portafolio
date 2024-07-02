@@ -1,4 +1,10 @@
 let personas = document.querySelector(".cosas")
+let titulo = document.querySelector(".resenas")
+
+titulo.innerHTML += `
+    <a href="restaurante.html"><div class="cruz"><i class="fa-solid fa-xmark"></i></div></a>
+    <div class="nom">${localStorage.getItem("nombre")}</div>
+`
 
 fetch('json/personas_argentinas.json')
 .then(response => {
