@@ -51,7 +51,7 @@ fetch('js/restaurantes.json')
                                 <div class="foto-plato"><img src=${plato[y].image}><div class="precio-pre">$ ${plato[y].price}</div></div>
                                 <div class="info-plato">
                                 <div class="plato-nombre dark">${plato[y].plato}</div>
-                                <div class="ingre gary">${plato[y].ingredients}</div> 
+                                <div class="ingre gray">${plato[y].ingredients}</div> 
                                 <div class="des">${plato[y].description}</div>
                                 </div>
                             </div></a>
