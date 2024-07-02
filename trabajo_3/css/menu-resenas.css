@@ -131,13 +131,13 @@ main{
                             position: relative;
                             font-size: 20px;
                             width: 95%;
-                            color: darkgray;
+                            color: gray;
                             top: 6%;
                             left: 10%;
                         }
 
                         .des {
-                            color: gray;
+                            color: darkgray;
                             position: relative;
                             top: 11%;
                             left: 10%;
