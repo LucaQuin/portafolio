@@ -54,6 +54,7 @@ fetch('json/destinos_turisticos.json')
 tapar.addEventListener("click", e => {
     let ojo = document.querySelector("#tapar");
     let ofertas = document.querySelector(".ofertas");
+    let header = document.querySelector("header");
     let opc = document.querySelector("#opcs");
     if(opc.style.display == "none"){
         opc.style.display = "flex";
@@ -62,6 +63,7 @@ tapar.addEventListener("click", e => {
     }else{
         opc.style.display = "none";
         ofertas.style.height = "100%";
+        header.style.height = "12%";
         ojo.innerHTML = "<i class='fa-solid fa-eye-slash'></i>";
     }
     console.log(ojo)

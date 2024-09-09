@@ -32,7 +32,6 @@ function reservas(num_cate) {
   let aux=0;
   let numCatesArray = JSON.parse(localStorage.getItem('num_cates')) || [];
 
-  // console.log(numCatesArray)
 
   if (numCatesArray=="") {
     numCatesArray.push("0");    
@@ -77,22 +76,17 @@ function favorito(num_cate){
   num_cate=num_cate.toString();
   let index = numCatesArray.indexOf(num_cate);
 
-
-  if(index==-1){
-  console.log(index)  
-  numCatesArray.splice(index, 1);
+  if(index!=-1){
     favoritio.style.background = "white";
     favoritio.style.color = "black";
     numCatesArray.splice(index, 1);
-    localStorage.setItem('num_cates', JSON.stringify(numCatesArray));
+    localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
     // window.location.href = "reservas.html";
   }else{
-    
     favoritio.style.background = "black";
     favoritio.style.color = "#efb810";
     numCatesArray.push(num_cate);
     localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
   }
 
-  console.log(localStorage.getItem("favoritos"))
 }

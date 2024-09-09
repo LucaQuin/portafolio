@@ -52,4 +52,18 @@ port.innerHTML += `
     `;
 
 
-    
+    let favoritio = document.querySelector(".fav");
+    let numCatesArray = JSON.parse(localStorage.getItem('favoritos')) || [];
+
+    if (numCatesArray=="") {
+        numCatesArray.push("0");    
+    }
+
+    let id =localStorage.getItem("id").toString();
+    let index = numCatesArray.indexOf(id);
+
+    if(index!=-1){
+        favoritio.style.background = "black";
+        favoritio.style.color = "#efb810";
+        console.log(localStorage.getItem("id"))
+    }

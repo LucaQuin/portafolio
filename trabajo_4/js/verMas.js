@@ -28,37 +28,5 @@
                 </a>
              `
          })
-         ofertas.innerHTML += `<div class="aux"></div>`
+         ofertas.innerHTML += `<div class="ayuda"></div>`
    })
-
-   // cabeza.innerHTML += `
-   //       <div class="cabeza">
-   //          <div class="atras"><a href="inicio.html"><i class="fa-solid fa-chevron-left"></i></a></div>
-   //          <div class="nombre"></div>
-   //       </div>
-   //    `;
-      // let tpl ="";
-      
-
-      // for (let i=0; i < 4; i++){
-         // cate[argu[i]].forEach(destino => {
-            
-
-            // if(num_cate==[i]){
-               // tpl += `
-               //    <a href="destino.html" onclick="pintarDatoLocal(${destino.id_lugar})">
-               //       <div class="cate">
-               //          <div class="foto_oferta"><img src="${destino.foto}"></div>
-               //          <div class="info_oferta">
-               //             <div class="name_oferta">${destino.nombre}</div>
-               //             <div class="precio_oferta">${destino.precio}</div>
-               //          </div>
-               //       </div>
-               //    </a>
-               // `
-            // }
-         // })
-      // }
-      // tpl += `<div class="aux"></div>`
-        
-      //   ofertas.innerHTML = tpl;
