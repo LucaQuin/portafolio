@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    header {
+        height: 18.5%;
+        width: 100%;
+        .nom{
+            display: flex;
+            .opc{
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            .titulo{
+                margin-top: 4px;
+                margin-left: 10px;
+                font-size: 23px;
+            }
+        }
+
+        .buscador_total{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .buscador{
+                display: flex;
+                width: 90%;
+                background-color: white;
+                justify-content:space-between;
+                height: 40px;
+                border-radius: 60px;
+                padding: 7px;
+                box-shadow: 0px 0px 5px black;
+                .input{
+                    width: 93%;
+                    margin-left: 10px;
+                    input[type="text"] {
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border: none;
+                    }
+                }
+                .lupa{
+                    width: 5%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            #tapar {
+                position: relative;
+                left: 8px;
+            }
+        }
+        
+    }
+    
+    main{
+        height: 81.5%;
+        width: 100%;
+        overflow: hidden;
+        #opcs{
+            height: 11%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0px 0px 10px black;
+            .opc1 {
+                height: 35px;
+                width: 35px;
+                background-color: aliceblue;
+                box-shadow: 0px 0px 5px black;
+                border-radius: 19px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .ofertas{
+            height: 88%;
+            overflow-y: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            padding: 10px;
+            margin-top: 3px;
+            gap: 20px;
+            display: grid;
+            width: 100%;
+            .categorias {
+                height: 300px;
+                width: 96vw;
+                .tipos_de_ofertas {
+                    display: flex;
+                    justify-content: space-around;
+                    height: 10%;
+                    width: 96vw;
+                    .nombre_de_ofertas {
+                        font-size: 23px;
+                        font-weight: 900;
+                    }
+                    .seeAll_oferta {
+                        display: grid;
+                        align-items: center;
+                    }
+                }
+                .cates {
+                    display: flex;
+                    gap: 50px;
+                    height: 87%;
+                    margin-top: 5px;
+                    width: 96vw;
+                    overflow-x: scroll;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+                    overflow-y: hidden;
+                    a{
+                        width: auto;
+                        .cate {
+                            height: 100%;
+                            width: 200px;
+                            .foto_oferta {
+                                height: 87%;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 25px
+                                }
+                            }
+                            .info_oferta {
+                                height: 13%;
+                                .name_oferta {
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+
+
+    .opcines {
+        width: 80%;
+        background-color: white;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        bottom: 1%;
+        left: 10%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px black;
+        .opc2 {
+            width: 0px;
+            height:  0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+    }
+}
+.aux{
+    height: 60px;
+}
+
+i {
+    scale: 1;  
+}
+.opc1:hover,.opc2:hover {
+    transition: 1s;
+    scale: 1.05;
+    color: red;
+}
+.opc2:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+.link_total{
+    a{
+        height: 100%;
+        width: 125px;
+    }
+}
+
+.aux{
+    scale: 1.8;
+}
+
+@media (orientation: landscape){
+    body{
+        header {
+            height: 15%;
+            .nom{
+                .opc{
+                    .titulo{
+                        font-size: 30px;
+                    }
+                }
+            }
+            .buscador_total{
+                #tapar {
+                    left: 25px;
+                }
+            }
+        }
+    
+        main{
+            height: 86%;
+            .ofertas{
+                .categorias{
+                    .cates{
+                        height: 90%;
+                        a{
+                        .cate{
+                                width: 220px;
+                            }
+                        }
+                    }
+                }
+            }
+            #opcs{
+                .opc1{
+                    width: 50px;
+                    height: 44px;
+                }
+            }
+        }
+    }
+    i {
+        scale: 1.8;
+    }
+
+    .link_total{
+        a{
+            width: 220px;
+        }
+    }
+    .aux{
+        scale: 1.8;
+    }
+}
+
