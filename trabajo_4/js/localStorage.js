@@ -65,28 +65,36 @@ function comprar(num_cate) {
 }
 
 
-function favorito(num_cate){
-  let favoritio = document.querySelector(".fav");
-  let numCatesArray = JSON.parse(localStorage.getItem('favoritos')) || [];
+function favorito(param){
 
-  if (numCatesArray=="") {
-    numCatesArray.push("0");    
-  }
+  let num_cate=param[0]
+  let text=param[1]
 
-  num_cate=num_cate.toString();
-  let index = numCatesArray.indexOf(num_cate);
+  let texto=(`.fav${destino.id_lugar}`);
 
-  if(index!=-1){
-    favoritio.style.background = "white";
-    favoritio.style.color = "black";
-    numCatesArray.splice(index, 1);
-    localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
-    // window.location.href = "reservas.html";
-  }else{
-    favoritio.style.background = "black";
-    favoritio.style.color = "#efb810";
-    numCatesArray.push(num_cate);
-    localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
-  }
+  let favoritio = document.querySelector(texto);
+  // let numCatesArray = JSON.parse(localStorage.getItem('favoritos')) || [];
+
+  // console.log(num_cate)
+
+  // if (numCatesArray=="") {
+  //   numCatesArray.push("0");    
+  // }
+
+  // num_cate=num_cate.toString();
+  // let index = numCatesArray.indexOf(num_cate);
+
+  // if(index!=-1){
+  //   favoritio.style.background = "white";
+  //   favoritio.style.color = "black";
+  //   numCatesArray.splice(index, 1);
+  //   localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
+  //   // window.location.href = "reservas.html";
+  // }else{
+  //   favoritio.style.background = "black";
+  //   favoritio.style.color = "#efb810";
+  //   numCatesArray.push(num_cate);
+  //   localStorage.setItem('favoritos', JSON.stringify(numCatesArray));
+  // }
 
 }

@@ -16,6 +16,7 @@ fetch('json/destinos_turisticos.json')
    `;
    
    let cant_fav=JSON.parse(localStorage.getItem('favoritos'));
+   console.log(cant_fav)
    ofertas.innerHTML += `
          <div class="informacion">
          <div class="arriba">
@@ -38,17 +39,20 @@ fetch('json/destinos_turisticos.json')
            cant_fav.forEach(favs_id => {
                if (favs_id == destino.id_lugar) {
                    ofertasHTML += `
-                       <a href="destino.html" onclick="pintarDatoLocal(${destino.id_lugar})">
-                           <div class="cate">
-                                <div class="foto_oferta"><img src="${destino.foto}"></div>
-                                <div class="info_oferta">
-                                   <div class="name_oferta">${destino.nombre}</div>
-                                   <div class="precio_oferta">${destino.precio}</div>
+                        <div class="cate2">
+                            <a href="destino.html" onclick="pintarDatoLocal(${destino.id_lugar})">
+                                <div class="cate">
+                                    <div class="foto_oferta"><img src="${destino.foto}"></div>
+                                    <div class="info_oferta">
+                                    <div class="name_oferta">${destino.nombre}</div>
+                                    <div class="precio_oferta">${destino.precio}</div>
+                                    </div>
                                 </div>
-                                <div class="fav fav${destino.id_lugar}" onclick="favorito(${localStorage.getItem("id")})"><i class="fa-solid fa-star aux"></i></div>
-                            </div>
-                       </a>
-                       `;
+                            </a>
+                            <div class="fav fav${destino.id_lugar}" onclick="favorito(${destino.id_lugar})"><i class="fa-solid fa-star aux"></i></div>
+                        </div>
+                    `;
+                    console.log(destino.id_lugar)
                }
            });
        });
@@ -65,15 +69,14 @@ fetch('json/destinos_turisticos.json')
                     let numCatesArray = JSON.parse(localStorage.getItem('favoritos')) || [];
                     let text = `.fav${destino.id_lugar}`;
                     let favoritio = document.querySelector(text);
-                
-                    let id =localStorage.getItem("id").toString();
+
+                    let id = destino.id_lugar.toString();
                     let index = numCatesArray.indexOf(id);
                 
                     if(index!=-1){
                         favoritio.style.background = "black";
                         favoritio.style.color = "#efb810";
-                        console.log(localStorage.getItem("id"))
-                    }
+                      }
                }
            });
        });

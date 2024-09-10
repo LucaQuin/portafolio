@@ -90,32 +90,36 @@ body{
             height: 40px;
             border-radius: 31px;
         }
-        a{
+        .cate2{
             width: 400px;
             height: 60%;
             margin-bottom: 15px;
-            color: black;
-
-            .cate {
+            a{
+                color: black;
                 height: 100%;
                 width: 100%;
-                .foto_oferta {
-                    height: 87%;
-                    img{
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 25px
+                .cate {
+                    height: 100%;
+                    width: 100%;
+                    .foto_oferta {
+                        height: 87%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 25px
+                        }
                     }
-                }
-                .info_oferta {
-                    height: 13%;
-                    .name_oferta {
-                        font-weight: 600;
-                        font-size: 18px;
+                    .info_oferta {
+                        height: 13%;
+                        .name_oferta {
+                            font-weight: 600;
+                            font-size: 18px;
+                        }
                     }
                 }
             }
         }
+        
     }
     .opcines {
         width: 80%;
