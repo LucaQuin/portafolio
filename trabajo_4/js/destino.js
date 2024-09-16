@@ -2,16 +2,11 @@ let port = document.querySelector("header")
 let cuer = document.querySelector("main")
 let pie = document.querySelector("footer")
 
-let fav ="fav"
-
 port.innerHTML += `
     <section class="portada">    
             <div class="foto"><img src="${localStorage.getItem("img")}">
             <a href="inicio.html"><div class="cruz"><i class="fa-solid fa-chevron-left"></i></div></a>
-            <div class="fav" onclick="favorito([
-                [${localStorage.getItem("id")}],
-                [${fav}]
-              ])"><i class="fa-solid fa-star aux"></i></div>
+            <div class="fav" onclick="favorito(${localStorage.getItem("id")},'.fav')"><i class="fa-solid fa-star aux"></i></div>
         </div>
         <div class="informacion">
             <div class="cuerpo-ofertas">

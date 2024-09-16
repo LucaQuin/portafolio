@@ -94,7 +94,7 @@ body{
             overflow-y: scroll;
             -ms-overflow-style: none;
             scrollbar-width: none;
-            padding: 10px;
+            padding: 3px 10px 10px 10px;
             margin-top: 3px;
             gap: 20px;
             display: grid;
@@ -179,7 +179,7 @@ body{
     }
 }
 .aux{
-    height: 60px;
+    height: 75px;
 }
 
 i {

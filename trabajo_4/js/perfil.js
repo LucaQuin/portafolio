@@ -49,7 +49,7 @@ fetch('json/destinos_turisticos.json')
                                     </div>
                                 </div>
                             </a>
-                            <div class="fav fav${destino.id_lugar}" onclick="favorito(${destino.id_lugar})"><i class="fa-solid fa-star aux"></i></div>
+                            <div class="fav fav${destino.id_lugar}" onclick="favorito(${destino.id_lugar},'.fav${destino.id_lugar}')"><i class="fa-solid fa-star aux"></i></div>
                         </div>
                     `;
                     console.log(destino.id_lugar)

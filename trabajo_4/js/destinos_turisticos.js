@@ -56,14 +56,17 @@ tapar.addEventListener("click", e => {
     let ofertas = document.querySelector(".ofertas");
     let header = document.querySelector("header");
     let opc = document.querySelector("#opcs");
+
+    let text="ofertas.style.margin-top"
     if(opc.style.display == "none"){
         opc.style.display = "flex";
         ofertas.style.height = "88%";
+        header.style.height = "15%";
         ojo.innerHTML = "<i class='fa-solid fa-eye'></i>";
     }else{
         opc.style.display = "none";
         ofertas.style.height = "100%";
-        header.style.height = "12%";
+        header.style.height = "16.5%";
         ojo.innerHTML = "<i class='fa-solid fa-eye-slash'></i>";
     }
     console.log(ojo)

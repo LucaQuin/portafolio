@@ -16,8 +16,8 @@ body{
         box-shadow: 0px 0px 10px black;
         a{
             .atras {
-                height: 40px;
-                width: 40px;
+                height: 25px;
+                width: 25px;
                 scale: 1.2;
                 position: absolute;
                 left: 20px;
@@ -159,10 +159,12 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            .atras{
-                scale: 1.5;
-                height: 31px;
-                width: 31px;
+            a{
+                .atras{
+                    scale: 1.5;
+                    height: 31px;
+                    width: 31px;
+                }
             }
             .nombre{
                 font-size: 55px;
@@ -171,18 +173,19 @@ body{
         main{
             .informacion {
                 height: 35%;
+                margin-bottom: 20px;
                 .arriba{
                     height: 54%;
                     .foto{
                         img{
-                            width: 130px;
+                            width: 94px;
                         }
                     }
                 }
                 .abajo{
-                    height: 46%;
+                    height: 60%;
                     .info{
-                        font-size: 20px;
+                        font-size: 19px;
                     }
                 }
             }
