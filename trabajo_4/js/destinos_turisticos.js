@@ -61,12 +61,12 @@ tapar.addEventListener("click", e => {
     if(opc.style.display == "none"){
         opc.style.display = "flex";
         ofertas.style.height = "88%";
-        header.style.height = "15%";
+        header.style.height = "76px";
         ojo.innerHTML = "<i class='fa-solid fa-eye'></i>";
     }else{
         opc.style.display = "none";
         ofertas.style.height = "100%";
-        header.style.height = "16.5%";
+        header.style.height = "89px";
         ojo.innerHTML = "<i class='fa-solid fa-eye-slash'></i>";
     }
     console.log(ojo)

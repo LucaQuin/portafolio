@@ -11,7 +11,7 @@ body{
     width: 100vw;
     overflow: hidden;
     header {
-        height: 18.5%;
+        height: 79px;
         width: 100%;
         .nom{
             display: flex;
@@ -209,7 +209,7 @@ i {
 @media (orientation: landscape){
     body{
         header {
-            height: 15%;
+            height: 76px;
             .nom{
                 .opc{
                     .titulo{
